@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Lise</title>
+	<link>http://localhost:1313/posts/</link>
+	<description>Recent content in Posts on Lise</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>My Post</title>
+		<link>http://localhost:1313/my-post/</link>
+		<pubDate>Thu, 20 Mar 2025 20:31:43 +0700</pubDate>
+		
+		<guid>http://localhost:1313/my-post/</guid>
+		<description>&lt;h1 id=&#34;my-first-post&#34;&gt;My first post&lt;/h1&gt;
+&lt;p&gt;Hello, this is my new post&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;definition of post?&lt;/dt&gt;
+&lt;dd&gt;post is a something that has been done to be sent.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;WOWZER&amp;#34;&lt;/span&gt; &amp;gt; fstab
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+	</item>
+	
+	<item>
+		<title>About</title>
+		<link>http://localhost:1313/about/</link>
+		<pubDate>Thu, 20 Mar 2025 20:27:43 +0700</pubDate>
+		
+		<guid>http://localhost:1313/about/</guid>
+		<description>&lt;p&gt;I&amp;rsquo;m Lise I do Linux&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
