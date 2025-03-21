@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<script>
+  
+  (function() {
+    const savedTheme = localStorage.getItem('theme');
+    let isDark = false;
+
+    if (savedTheme === 'dark') {
+      document.documentElement.classList.add('dark-theme');
+      isDark = true;
+    } else if (savedTheme === 'light') {
+      document.documentElement.classList.remove('dark-theme');
+    } else {
+      
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark');
+        isDark = true;
+      } else {
+        localStorage.setItem('theme', 'light');
+      }
+    }
+
+    
+    window.toggleTheme = function() {
+      const htmlElement = document.documentElement;
+      const themeIcon = document.getElementById('theme-icon');
+
+      if (htmlElement.classList.contains('dark-theme')) {
+        
+        htmlElement.classList.remove('dark-theme');
+        localStorage.setItem('theme', 'light');
+        themeIcon.textContent = '☀️';
+      } else {
+        
+        htmlElement.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark');
+        themeIcon.textContent = '🌑';
+      }
+    };
+
+    
+    window.setInitialIcon = function() {
+      const themeIcon = document.getElementById('theme-icon');
+      if (themeIcon) {
+        themeIcon.textContent = isDark ? '🌑' : '☀️';
+      }
+    };
+
+    
+    if (document.readyState === 'interactive' || document.readyState === 'complete') {
+      window.setInitialIcon();
+    } else {
+      
+      document.addEventListener('DOMContentLoaded', window.setInitialIcon);
+    }
+  })();
+</script>
+
+
+<title>Contacts | Lise</title>
+<link rel="canonical" href="https://lisenhatson.github.io/siteproj/">
+<link rel='alternate' type='application/rss+xml' title="Lise RSS" href='/index.xml'>
+
+
+<link rel="stylesheet" href="/siteproj/css/theme.min.97cb81c9c41a173a920b3f0884faa449f9a87924b04b6bcb29e166c3c1cc62e3.css">
+
+<link rel="icon" href="/favicon.ico">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<meta charset="utf-8">
+
+</head>
+<body>
+<div class="container">
+<header class="header">
+    <header>
+  <div class="header-container">
+    
+    <div class="site-title">
+      <a href="https://lisenhatson.github.io/siteproj/">Lise</a>
+    </div>
+    
+    <nav class="main-nav">
+      <ul>
+        
+      </ul>
+    </nav>
+    
+    <button onclick="toggleTheme()" class="theme-toggle-btn">
+  <span id="theme-icon"></span>
+</button>
+
+  </div>
+  
+</header>
+<style>
+   
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .main-nav li {
+    margin-left: 1.5rem;
+  }
+  .theme-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .page-title {
+    font-size: 2rem;
+    margin: 1rem 0 2rem;
+  }
+</style>
+
+
+  </header>
+<main>
+<article>
+
+<ul>
+<li><time datetime="2025-03-21T11:21:01&#43;07:00">2025 Mar 21</time> &ndash; <a href="/siteproj/contact/contact/">Contact</a>
+	
+	</li>
+</ul>
+
+</article>
+</main>
+
+<footer>
+    <a href="/siteproj">/siteproj</a>
+    <br><br>
+    <a href="/siteproj/index.xml">
+        <img src="/siteproj/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates.">
+    </a>
+
+</footer>
+</div>
+
+</body>
+</html>
