@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lisenhatson.github.io/siteproj/recs/laptop-recommendation/</loc>
+    <loc>http://localhost:38001/siteproj/recs/laptop-recommendation/</loc>
     <lastmod>2025-03-21T20:44:12+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/recs/</loc>
+    <loc>http://localhost:38001/siteproj/recs/</loc>
     <lastmod>2025-03-21T20:44:12+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/contact/contact/</loc>
+    <loc>http://localhost:38001/siteproj/contact/contact/</loc>
     <lastmod>2025-03-21T11:21:01+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/contact/</loc>
+    <loc>http://localhost:38001/siteproj/contact/</loc>
     <lastmod>2025-03-21T11:21:01+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/tags/information/</loc>
+    <loc>http://localhost:38001/siteproj/tags/information/</loc>
     <lastmod>2025-03-20T20:31:43+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/posts/my-post/</loc>
+    <loc>http://localhost:38001/siteproj/posts/my-post/</loc>
     <lastmod>2025-03-20T20:31:43+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/tags/</loc>
+    <loc>http://localhost:38001/siteproj/tags/</loc>
     <lastmod>2025-03-20T20:31:43+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/about/</loc>
+    <loc>http://localhost:38001/siteproj/about/</loc>
     <lastmod>2025-03-20T20:27:43+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/tags/personal/</loc>
+    <loc>http://localhost:38001/siteproj/tags/personal/</loc>
     <lastmod>2025-03-20T20:27:43+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/</loc>
+    <loc>http://localhost:38001/siteproj/</loc>
     <lastmod>2025-03-20T20:26:57+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/posts/</loc>
+    <loc>http://localhost:38001/siteproj/posts/</loc>
     <lastmod>2025-03-20T20:26:57+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/posts/draftku/</loc>
+    <loc>http://localhost:38001/siteproj/posts/draftku/</loc>
     <lastmod>2023-06-19T05:35:19+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/tags/ideas/</loc>
+    <loc>http://localhost:38001/siteproj/tags/ideas/</loc>
     <lastmod>2023-06-19T05:35:19+07:00</lastmod>
   </url><url>
-    <loc>https://lisenhatson.github.io/siteproj/categories/</loc>
+    <loc>http://localhost:38001/siteproj/categories/</loc>
   </url>
 </urlset>

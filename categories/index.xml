@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Lise</title>
-	<link>https://lisenhatson.github.io/siteproj/categories/</link>
+	<link>http://localhost:38001/siteproj/categories/</link>
 	<description>Recent content in Categories on Lise</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
     
-        <atom:link href="https://lisenhatson.github.io/siteproj/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:38001/siteproj/categories/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Laptop Recommendation</title>
-		<link>https://lisenhatson.github.io/siteproj/recs/laptop-recommendation/</link>
+		<link>http://localhost:38001/siteproj/recs/laptop-recommendation/</link>
 		<pubDate>Fri, 21 Mar 2025 20:44:12 +0700</pubDate>
 		
-		<guid>https://lisenhatson.github.io/siteproj/recs/laptop-recommendation/</guid>
+		<guid>http://localhost:38001/siteproj/recs/laptop-recommendation/</guid>
 		<description>&lt;h1 id=&#34;my-laptop-recommendation&#34;&gt;My laptop Recommendation&lt;/h1&gt;
 &lt;p&gt;THinkpad&lt;/p&gt;
 </description>
@@ -22,10 +22,10 @@
 	
 	<item>
 		<title>Contact</title>
-		<link>https://lisenhatson.github.io/siteproj/contact/contact/</link>
+		<link>http://localhost:38001/siteproj/contact/contact/</link>
 		<pubDate>Fri, 21 Mar 2025 11:21:01 +0700</pubDate>
 		
-		<guid>https://lisenhatson.github.io/siteproj/contact/contact/</guid>
+		<guid>http://localhost:38001/siteproj/contact/contact/</guid>
 		<description>&lt;h1 id=&#34;contact-me&#34;&gt;Contact me&lt;/h1&gt;
 &lt;p&gt;www.&lt;/p&gt;
 </description>
@@ -33,38 +33,64 @@
 	
 	<item>
 		<title>My Post</title>
-		<link>https://lisenhatson.github.io/siteproj/posts/my-post/</link>
+		<link>http://localhost:38001/siteproj/posts/my-post/</link>
 		<pubDate>Thu, 20 Mar 2025 20:31:43 +0700</pubDate>
 		
-		<guid>https://lisenhatson.github.io/siteproj/posts/my-post/</guid>
-		<description>&lt;h1 id=&#34;my-first-post&#34;&gt;My first post&lt;/h1&gt;
+		<guid>http://localhost:38001/siteproj/posts/my-post/</guid>
+		<description>&lt;h2 id=&#34;the-post&#34;&gt;The post&lt;/h2&gt;
+&lt;h3 id=&#34;the-post-1&#34;&gt;The post&lt;/h3&gt;
+&lt;hr&gt;
 &lt;p&gt;Hello, this is my new post&lt;/p&gt;
 &lt;dl&gt;
 &lt;dt&gt;definition of post?&lt;/dt&gt;
-&lt;dd&gt;post is a something that has been done to be sent.&lt;/dd&gt;
+&lt;dd&gt;post is a something that has been done to be sent.
+&lt;del&gt;ami&lt;/del&gt;&lt;/dd&gt;
 &lt;/dl&gt;
+&lt;blockquote&gt;
+&lt;p&gt;kekloklmaoxd&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;b&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(&lt;code&gt;a|b&lt;/code&gt;)
+(&lt;code&gt;c|d&lt;/code&gt;)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;WOWZER&amp;#34;&lt;/span&gt; &amp;gt; fstab
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ awk -F &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/href=https://lisenhatson.github.io/siteproj/{print &amp;#34;Link:&amp;#34;, $2, &amp;#34;Source:&amp;#34;, $0}&amp;#39;&lt;/span&gt; file.html
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;img &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  max-width: 100%;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ awk -F &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/href=http://localhost:38001/siteproj/{print &amp;#34;Link:&amp;#34;, $2, &amp;#34;Source:&amp;#34;, $0}&amp;#39;&lt;/span&gt; file.html
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;yeah, that &lt;code&gt;was&lt;/code&gt; code&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I&amp;rsquo;ll be testing my formatting and colors here&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;you-sure&#34;&gt;YOu sure?&lt;/h2&gt;
+&lt;h3 id=&#34;you-really-sure&#34;&gt;YOU REALLY SURE?&lt;/h3&gt;
+&lt;h1 id=&#34;ok&#34;&gt;OK..&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ll be testing my formatting and colors here&lt;/strong&gt;&lt;/p&gt;
+</description>
 	</item>
 	
 	<item>
 		<title>About</title>
-		<link>https://lisenhatson.github.io/siteproj/about/</link>
+		<link>http://localhost:38001/siteproj/about/</link>
 		<pubDate>Thu, 20 Mar 2025 20:27:43 +0700</pubDate>
 		
-		<guid>https://lisenhatson.github.io/siteproj/about/</guid>
+		<guid>http://localhost:38001/siteproj/about/</guid>
 		<description>&lt;p&gt;I&amp;rsquo;m Lise I do Linux&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Draftku</title>
-		<link>https://lisenhatson.github.io/siteproj/posts/draftku/</link>
+		<link>http://localhost:38001/siteproj/posts/draftku/</link>
 		<pubDate>Mon, 19 Jun 2023 05:35:19 +0700</pubDate>
 		
-		<guid>https://lisenhatson.github.io/siteproj/posts/draftku/</guid>
+		<guid>http://localhost:38001/siteproj/posts/draftku/</guid>
 		<description>&lt;h1 id=&#34;cinta-propaganda-perusak-generasi-muda&#34;&gt;Cinta, Propaganda Perusak Generasi Muda&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Lisen Hatson&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;(Di sini saya akan membahas atau mengkritik cinta sebagai konsep. Bukan berarti saya kontra terhadapnya.)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
