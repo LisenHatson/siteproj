@@ -1,55 +1,118 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lise</title><link>https://lisenhatson.github.io/siteproj/contact/</link><description>Recent content in Contacts on Lise</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 11:21:01 +0700</lastBuildDate><atom:link href="https://lisenhatson.github.io/siteproj/contact/index.xml" rel="self" type="application/rss+xml"/><item><title>Laptop Recommendation</title><link>https://lisenhatson.github.io/siteproj/recs/laptop-recommendation/</link><pubDate>Fri, 21 Mar 2025 20:44:12 +0700</pubDate><guid>https://lisenhatson.github.io/siteproj/recs/laptop-recommendation/</guid><description>&lt;h1 id="my-laptop-recommendation">My laptop Recommendation&lt;/h1>
-&lt;p>THinkpad&lt;/p></description></item><item><title>Contact</title><link>https://lisenhatson.github.io/siteproj/contact/contact/</link><pubDate>Fri, 21 Mar 2025 11:21:01 +0700</pubDate><guid>https://lisenhatson.github.io/siteproj/contact/contact/</guid><description>&lt;h1 id="contact-me">Contact me&lt;/h1>
-&lt;p>www.&lt;/p></description></item><item><title>My Post</title><link>https://lisenhatson.github.io/siteproj/posts/my-post/</link><pubDate>Thu, 20 Mar 2025 20:31:43 +0700</pubDate><guid>https://lisenhatson.github.io/siteproj/posts/my-post/</guid><description>&lt;h2 id="the-post">The post&lt;/h2>
-&lt;h3 id="the-post-1">The post&lt;/h3>
-&lt;hr>
-&lt;p>Hello, this is my new post&lt;/p>
-&lt;dl>
-&lt;dt>definition of post?&lt;/dt>
-&lt;dd>post is a something that has been done to be sent.
-&lt;del>ami&lt;/del>&lt;/dd>
-&lt;/dl>
-&lt;blockquote>
-&lt;p>kekloklmaoxd&lt;/p>&lt;/blockquote>
-&lt;ul>
-&lt;li>a&lt;/li>
-&lt;li>b&lt;/li>
-&lt;/ul>
-&lt;ol>
-&lt;li>a&lt;/li>
-&lt;li>b&lt;/li>
-&lt;/ol>
-&lt;p>(&lt;code>a|b&lt;/code>)
-(&lt;code>c|d&lt;/code>)&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ echo &lt;span style="color:#e6db74">&amp;#34;WOWZER&amp;#34;&lt;/span> &amp;gt; fstab
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>img &lt;span style="color:#f92672">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> max-width: 100%;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ awk -F &lt;span style="color:#e6db74">&amp;#39;&amp;#34;&amp;#39;&lt;/span> &lt;span style="color:#e6db74">&amp;#39;/href=https://lisenhatson.github.io/siteproj/{print &amp;#34;Link:&amp;#34;, $2, &amp;#34;Source:&amp;#34;, $0}&amp;#39;&lt;/span> file.html
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>yeah, that &lt;code>was&lt;/code> code&lt;/p>
-&lt;p>&lt;em>I&amp;rsquo;ll be testing my formatting and colors here&lt;/em>&lt;/p>
-&lt;h2 id="you-sure">YOu sure?&lt;/h2>
-&lt;h3 id="you-really-sure">YOU REALLY SURE?&lt;/h3>
-&lt;h1 id="ok">OK..&lt;/h1>
-&lt;hr>
-&lt;p>&lt;strong>I&amp;rsquo;ll be testing my formatting and colors here&lt;/strong>&lt;/p></description></item><item><title>About</title><link>https://lisenhatson.github.io/siteproj/about/</link><pubDate>Thu, 20 Mar 2025 20:27:43 +0700</pubDate><guid>https://lisenhatson.github.io/siteproj/about/</guid><description>&lt;p>I&amp;rsquo;m Lise I do Linux&lt;/p></description></item><item><title>Draftku</title><link>https://lisenhatson.github.io/siteproj/posts/draftku/</link><pubDate>Mon, 19 Jun 2023 05:35:19 +0700</pubDate><guid>https://lisenhatson.github.io/siteproj/posts/draftku/</guid><description>&lt;h1 id="cinta-propaganda-perusak-generasi-muda">Cinta, Propaganda Perusak Generasi Muda&lt;/h1>
-&lt;p>&lt;em>Lisen Hatson&lt;/em>&lt;/p>
-&lt;p>&lt;em>&lt;strong>(Di sini saya akan membahas atau mengkritik cinta sebagai konsep. Bukan berarti saya kontra terhadapnya.)&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>[intro]
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Lise</title>
+	<link>https://lisenhatson.github.io/siteproj/contact/</link>
+	<description>Recent content in Contacts on Lise</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Fri, 21 Mar 2025 11:21:01 +0700</lastBuildDate>
+    
+        <atom:link href="https://lisenhatson.github.io/siteproj/contact/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Laptop Recommendation</title>
+		<link>https://lisenhatson.github.io/siteproj/recs/laptop-recommendation/</link>
+		<pubDate>Fri, 21 Mar 2025 20:44:12 +0700</pubDate>
+		
+		<guid>https://lisenhatson.github.io/siteproj/recs/laptop-recommendation/</guid>
+		<description>&lt;h1 id=&#34;my-laptop-recommendation&#34;&gt;My laptop Recommendation&lt;/h1&gt;
+&lt;p&gt;THinkpad&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Contact</title>
+		<link>https://lisenhatson.github.io/siteproj/contact/contact/</link>
+		<pubDate>Fri, 21 Mar 2025 11:21:01 +0700</pubDate>
+		
+		<guid>https://lisenhatson.github.io/siteproj/contact/contact/</guid>
+		<description>&lt;h1 id=&#34;contact-me&#34;&gt;Contact me&lt;/h1&gt;
+&lt;p&gt;www.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>A Post</title>
+		<link>https://lisenhatson.github.io/siteproj/posts/a-post/</link>
+		<pubDate>Thu, 20 Mar 2025 20:31:43 +0700</pubDate>
+		
+		<guid>https://lisenhatson.github.io/siteproj/posts/a-post/</guid>
+		<description>&lt;h2 id=&#34;the-post&#34;&gt;The post&lt;/h2&gt;
+&lt;h3 id=&#34;the-post-1&#34;&gt;The post&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;Hello, this is my new post&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;definition of post?&lt;/dt&gt;
+&lt;dd&gt;post is a something that has been done to be sent.
+&lt;del&gt;ami&lt;/del&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;blockquote&gt;
+&lt;p&gt;kekloklmaoxd&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;b&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(&lt;code&gt;a|b&lt;/code&gt;)
+(&lt;code&gt;c|d&lt;/code&gt;)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;WOWZER&amp;#34;&lt;/span&gt; &amp;gt; fstab
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;img &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  max-width: 100%;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ awk -F &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/href=https://lisenhatson.github.io/siteproj/{print &amp;#34;Link:&amp;#34;, $2, &amp;#34;Source:&amp;#34;, $0}&amp;#39;&lt;/span&gt; file.html
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;yeah, that &lt;code&gt;was&lt;/code&gt; code&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I&amp;rsquo;ll be testing my formatting and colors here&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;you-sure&#34;&gt;YOu sure?&lt;/h2&gt;
+&lt;h3 id=&#34;you-really-sure&#34;&gt;YOU REALLY SURE?&lt;/h3&gt;
+&lt;h1 id=&#34;ok&#34;&gt;OK..&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;I&amp;rsquo;ll be testing my formatting and colors here&lt;/strong&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>About</title>
+		<link>https://lisenhatson.github.io/siteproj/about/</link>
+		<pubDate>Thu, 20 Mar 2025 20:27:43 +0700</pubDate>
+		
+		<guid>https://lisenhatson.github.io/siteproj/about/</guid>
+		<description>&lt;p&gt;I&amp;rsquo;m Lise I do Linux&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Draftku</title>
+		<link>https://lisenhatson.github.io/siteproj/posts/draftku/</link>
+		<pubDate>Mon, 19 Jun 2023 05:35:19 +0700</pubDate>
+		
+		<guid>https://lisenhatson.github.io/siteproj/posts/draftku/</guid>
+		<description>&lt;h1 id=&#34;cinta-propaganda-perusak-generasi-muda&#34;&gt;Cinta, Propaganda Perusak Generasi Muda&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Lisen Hatson&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;(Di sini saya akan membahas atau mengkritik cinta sebagai konsep. Bukan berarti saya kontra terhadapnya.)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[intro]
 Media umum telah merusak ide tentang romansa dan percintaan, dan generasi muda adalah korban utamanya. Pengguna media sosial saling meracuni satu sama lain dengan informasi dan sugesti subjektif mereka terkait percintaan yang tidak selalu benar. Sastrawan sejak dahulu kala telah memperdaya manusia dengan hiperbola yang mengindahkan romansa dengan pekarangan bunga seluas benua Asia. Kendati umat manusia, terutama generasi muda menggambarkan bahwa percintaan dan hubungan antarmanusia adalah sesuatu yang sangat indah yang terbungkus dalam estetika tinggi karena mereka dipengaruhi oleh karya dan skenario fiksi.
-Umat manusia telah mengonsumsi banyak fiksi romantis. Mereka beranggapan bahwa mereka harus menjalankan suatu hubungan sesempurna mungkin, dengan mengabaikan seberapa rapuh dan lemahnya jiwa manusia. Hiperrealita; gambaran yang diciptakan media yang membuat fiksi tergambarkan lebih nyata daripada dunia nyata, telah menghipnotis umat manusia untuk lebih terikat dalam imitasi realita daripada dunia nyata yang mereka hinggapi.
+Umat manusia telah mengonsumsi banyak fiksi romantis. Mereka beranggapan bahwa mereka harus menjalankan suatu hubungan sesempurna mungkin, dengan mengabaikan seberapa rapuh dan lemahnya jiwa manusia.  Hiperrealita; gambaran yang diciptakan media yang membuat fiksi tergambarkan lebih nyata daripada dunia nyata, telah menghipnotis umat manusia untuk lebih terikat dalam imitasi realita daripada dunia nyata yang mereka hinggapi.
 Contoh dari hiperrealita, sebagai gambaran; adalah film yang menyorotkan peperangan. Skenario yang ditampilkan film peperangan terasa lebih nyata daripada dokumentasi terkait peperangan yang benar-benar terjadi ataupun jika kita berada di tempatnya langsung. Film menyorot dan menggambarkan film secara sinematis dengan unsur-unsur yang dilebih-lebihkan sehingga penggambaran ini terasa lebih nyata daripada kenyataan. Dari cara kerja seperti ini lah manusia dibuat lebih terikat kepada media yang memproduksi hiperrealita daripada realita dari mereka sendiri (reiterasi dari paragraf sebelumnya).
-Hiperrealita tidak hanya ada dalam media film saja. Orang-orang lebih terperangkap oleh hiperrealita yang lebih masif, yaitu hiperrealita dalam media sosial. Media sosial adalah sarana pengembala manusia yang sangat diandalkan oleh para pelaku rekayasa sosial untuk mengapitalisasi otak-otak pengguna agar terpengaruh dalam suatu ide tertentu dan meraup keuntungan dari para pengguna, tanpa konsen dari pengguna.&lt;/p>
-&lt;blockquote>
-&lt;blockquote>
-&lt;p>Mulai ulang.&lt;/p>&lt;/blockquote>&lt;/blockquote>
-&lt;p>Ya, cinta telah merusak cara berpikir generasi muda, atau lebih jelasnya peradaban manusia telah mengubah cinta menjadi sesuatu yang dipercepat dan dangkal, dan generasi muda mencernanya dengan lahap. Kebanyakan hal yang ada di era pascamodern ini; mengalami perubahan yang serupa. Cinta terus mengalami perubahan dari zaman ke zaman, karena memang pada hakikatnya segala sesuatu akan mengalami perubahan konstan di dunia ini.&lt;/p>
-&lt;p>Cinta yang dibentuk oleh hiperrealita dari media umum.&lt;/p>
-&lt;p>Umat manusia yang larut dalam hiperrealita cinta.
+Hiperrealita tidak hanya ada dalam media film saja. Orang-orang lebih terperangkap oleh hiperrealita yang lebih masif, yaitu hiperrealita dalam media sosial. Media sosial adalah sarana pengembala manusia yang sangat diandalkan oleh para pelaku rekayasa sosial untuk mengapitalisasi otak-otak pengguna agar terpengaruh dalam suatu ide tertentu dan meraup keuntungan dari para pengguna, tanpa konsen dari pengguna.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mulai ulang.&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;
+&lt;p&gt;Ya, cinta telah merusak cara berpikir generasi muda, atau lebih jelasnya peradaban manusia telah mengubah cinta menjadi sesuatu yang dipercepat dan dangkal, dan generasi muda mencernanya dengan lahap. Kebanyakan hal yang ada di era pascamodern ini; mengalami perubahan yang serupa. Cinta terus mengalami perubahan dari zaman ke zaman, karena memang pada hakikatnya segala sesuatu akan mengalami perubahan konstan di dunia ini.&lt;/p&gt;
+&lt;p&gt;Cinta yang dibentuk oleh hiperrealita dari media umum.&lt;/p&gt;
+&lt;p&gt;Umat manusia yang larut dalam hiperrealita cinta.
 Cara cinta yang salah meracuni umat manusia; pengaruh media sosial. (red flag,)
 Cinta adalah kontrakultur di era pascamodern ini.
-Bagaimana kita dapat memperbaiki cinta.&lt;/p>
-&lt;p>[outro]
-Saya berterima kasih kepada kalian yang telah menyaksikan sampai usai. Sampai jumpa, karena jika tuhan menghendaki, kita akan bertemu lagi.&lt;/p></description></item></channel></rss>
+Bagaimana kita dapat memperbaiki cinta.&lt;/p&gt;
+&lt;p&gt;[outro]
+Saya berterima kasih kepada kalian yang telah menyaksikan sampai usai. Sampai jumpa, karena jika tuhan menghendaki, kita akan bertemu lagi.&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
