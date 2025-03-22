@@ -1,48 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-	<title>Posts | Lise</title>
-	<link rel="canonical" href="http://localhost:1313/">
-	<link rel='alternate' type='application/rss+xml' title="Lise RSS" href='/index.xml'>
+<head>
     
-    <link rel="stylesheet" href="/css/theme.min.1bb9d4ac3ddf0ae00acfc1f54f1c306d332cdb02c9c7e9ed40c29880d400b703.css">
-	<link rel="icon" href="/favicon.ico">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+<script>
+  
+  (function() {
+    const savedTheme = localStorage.getItem('theme');
+    let isDark = false;
+
+    if (savedTheme === 'dark') {
+      document.documentElement.classList.add('dark-theme');
+      isDark = true;
+    } else if (savedTheme === 'light') {
+      document.documentElement.classList.remove('dark-theme');
+    } else {
+      
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark');
+        isDark = true;
+      } else {
+        localStorage.setItem('theme', 'light');
+      }
+    }
+
     
-    <script src="/js/theme.min.js" defer></script>
+    window.toggleTheme = function() {
+      const htmlElement = document.documentElement;
+      const themeIcon = document.getElementById('theme-icon');
+
+      if (htmlElement.classList.contains('dark-theme')) {
+        
+        htmlElement.classList.remove('dark-theme');
+        localStorage.setItem('theme', 'light');
+        themeIcon.textContent = '☀️';
+      } else {
+        
+        htmlElement.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark');
+        themeIcon.textContent = '🌑';
+      }
+    };
+
+    
+    window.setInitialIcon = function() {
+      const themeIcon = document.getElementById('theme-icon');
+      if (themeIcon) {
+        themeIcon.textContent = isDark ? '🌑' : '☀️';
+      }
+    };
+
+    
+    if (document.readyState === 'interactive' || document.readyState === 'complete') {
+      window.setInitialIcon();
+    } else {
+      
+      document.addEventListener('DOMContentLoaded', window.setInitialIcon);
+    }
+  })();
+</script>
+
+
+<link rel="icon" href="/siteproj/favicon.png">
+
+<title>My Posts | Lise</title>
+<link rel="canonical" href="https://lisenhatson.github.io/siteproj/">
+<link rel='alternate' type='application/rss+xml' title="Lise RSS" href='/index.xml'>
+
+
+<link rel="stylesheet" href="/siteproj/css/theme.min.c9e1d05365a1c0cd78a5bb84e3c354460b5a3e7275e67835cd2e23437f4d865b.css">
+
+<link rel="icon" href="favicon.png">
+<meta name="description" content="My Posts
+or blog">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<meta charset="utf-8">
+
 </head>
 <body>
-<main>
-  <header class="header">
+<div class="container">
+<header class="header">
     <header>
   <div class="header-container">
     
     <div class="site-title">
-      <a href="http://localhost:1313/">Lise</a>
+      <a href="https://lisenhatson.github.io/siteproj/">Lise</a>
     </div>
 
     
-    <nav class="main-nav">
-      <ul>
-        
-      </ul>
-    </nav>
+    <button onclick="toggleTheme()" class="theme-toggle-btn">
+  <span id="theme-icon"></span>
+</button>
 
-    
-    <div class="theme-switch-wrapper">
-      <label class="theme-switch" for="checkbox">
-        <input type="checkbox" id="checkbox" />
-        <div class="slider round"></div>
-    </div>
   </div>
 
   
+  <div class="site-navigation">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/siteproj/posts/" title="Posts">Posts</a></li>
+        <li><a href="/siteproj/recs/" title="Recommendations">Recommendations</a></li>
+        <li><a href="/siteproj/about/" title="About">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+
   
 </header>
-
 <style>
    
   .header-container {
@@ -50,116 +116,68 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
-    margin-bottom: 2rem;
   }
-
   .site-title {
     font-size: 1.5rem;
     font-weight: bold;
   }
-
   .main-nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
-
   .main-nav li {
     margin-left: 1.5rem;
   }
-
-   
-  .theme-switch-wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  .theme-switch {
-    display: inline-block;
-    height: 24px;
-    position: relative;
-    width: 48px;
-  }
-
-  .theme-switch input {
-    display: none;
-  }
-
-  .slider {
-    background-color: #ccc;
-    bottom: 0;
+  .theme-toggle-btn {
+    background: none;
+    border: none;
     cursor: pointer;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: .4s;
-    border-radius: 34px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
   }
-
-  .slider:before {
-    background-color: white;
-    bottom: 4px;
-    content: "";
-    height: 16px;
-    left: 4px;
-    position: absolute;
-    transition: .4s;
-    width: 16px;
-    border-radius: 50%;
-  }
-
-  input:checked + .slider {
-    background-color: #d79921;  
-  }
-
-  input:checked + .slider:before {
-    transform: translateX(24px);
-  }
-
-  .theme-switch-wrapper em {
-    margin-left: 10px;
-    font-size: 0.8em;
-  }
-
-   
-  @media (max-width: 768px) {
-    .header-container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .main-nav {
-      margin: 1rem 0;
-    }
-
-    .main-nav ul {
-      flex-wrap: wrap;
-    }
-
-    .main-nav li {
-      margin: 0.5rem 1rem 0.5rem 0;
-    }
-
-    .theme-switch-wrapper {
-      margin-top: 1rem;
-    }
+  .page-title {
+    font-size: 2rem;
+    margin: 1rem 0 2rem;
   }
 </style>
 
-  </header>
-<article>
 
-<ul>
+  </header>
+<main>
+<article>
+<h1 id="my-posts">My Posts</h1>
+<p>or blog</p>
+
+
+<ul class="clean-list">
+  <li class="list-item">
+    <time class="mono" datetime="2025-03-20T20:31:43&#43;07:00">2025 Mar 20</time> &ndash;
+
+    <a href="/siteproj/posts/my-post/">My Post</a>
+    
+  </li>
+  <li class="list-item">
+    <time class="mono" datetime="2023-06-19T05:35:19&#43;07:00">2023 Jun 19</time> &ndash;
+
+    <a href="/siteproj/posts/draftku/">Draftku</a>
+    
+  </li>
 </ul>
 
 </article>
 </main>
 
 <footer>
-	<a href="http://localhost:1313/">http://localhost:1313/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+    <a href="/siteproj">/siteproj</a>
+    <br><br>
+    <a href="/siteproj/index.xml">
+        <img src="/siteproj/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates.">
+    </a>
+
 </footer>
+</div>
 
 </body>
 </html>
